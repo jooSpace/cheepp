@@ -1,0 +1,40 @@
+.flex {
+    display: flex;
+}
+
+.header_container {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.menu_container {
+    display: flex;
+    margin-left: 32px;
+}
+
+.menu_container a {
+    margin: 38px;
+    font-size: 20px;
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu_container a:hover {
+    color: #F6B91C;
+}
+.login_form {
+    margin-right: 0;
+    margin: 41px;
+}
+
+.login_form p {
+    font-size: 15px;
+    color: #333333;
+}
