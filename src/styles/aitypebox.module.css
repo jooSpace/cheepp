@@ -1,0 +1,32 @@
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+  
+.scrollContainer {
+    display: flex;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    width: 100%;
+    cursor: grab;
+}
+  
+.scrollContainer::-webkit-scrollbar {
+    display: none;
+}
+  
+.scrollContent {
+    display: flex;
+}
+  
+.item {
+    flex: 0 0 auto;
+    width: 275px;
+    height: 275px;
+    margin: 10px;
+    background: #EDEDED;
+    border-radius: 32px;
+    margin-top: 24px;
+    margin-right: 20px;
+}

@@ -8,7 +8,9 @@ const Header = () => {
         <div className={styles.header_container}>
             <header className={styles.header}>
                 <div className={styles.flex}>
-                    <img src={logo} alt='logo'></img>
+                    <Link to="/">
+                        <img src={logo} alt='logo'></img>
+                    </Link>
                     <div>
                         <nav className={styles.menu_container}>
                         <Link to="/">앵무새 종류</Link>

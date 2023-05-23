@@ -1,0 +1,21 @@
+.container {
+    margin-top: 58px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.title_more {
+    display: flex;
+}
+
+.title_more p {
+    margin-right: 10px;
+}
