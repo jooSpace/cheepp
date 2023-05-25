@@ -20,7 +20,7 @@
     display: flex;
 }
   
-.item {
+.itemType {
     flex: 0 0 auto;
     width: 275px;
     height: 275px;
@@ -29,4 +29,21 @@
     border-radius: 32px;
     margin-top: 24px;
     margin-right: 20px;
+}
+
+.itemAction {
+    flex: 0 0 auto;
+    width: 590px;
+    height: 250px;
+    margin: 10px;
+    background: #EDEDED;
+    border-radius: 32px;
+    margin-top: 24px;
+    margin-right: 20px;
+}
+
+.itemText {
+    font-size: 18px;
+    margin-top: 24px;
+    text-align: center;
 }
