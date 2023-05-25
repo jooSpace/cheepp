@@ -7,6 +7,10 @@
     justify-content: space-between;
 }
 
+.titleColor::first-letter {
+    color: #3fbc79
+}
+
 .title h1 {
     font-size: 28px;
     font-weight: bold;
@@ -14,6 +18,7 @@
 
 .title_more {
     display: flex;
+    margin-top: 6px;
 }
 
 .title_more p {
