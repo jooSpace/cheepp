@@ -2,7 +2,7 @@
     display: flex;
 }
 
-.header_container {
+.headerContainer {
     width: 100%;
 }
 
@@ -13,12 +13,12 @@
     justify-content: space-between;
 }
 
-.menu_container {
+.menuContainer {
     display: flex;
     margin-left: 32px;
 }
 
-.menu_container a {
+.menuContainer a {
     margin: 38px;
     font-size: 20px;
     color: #333333;
@@ -26,15 +26,17 @@
     font-weight: bold;
 }
 
-.menu_container a:hover {
+.menuContainer a:hover {
     color: #F6B91C;
 }
-.login_form {
+
+.loginForm {
     margin-right: 0;
     margin-top: 41px;
 }
 
-.login_form p {
+.loginForm a {
     font-size: 15px;
     color: #333333;
+    text-decoration: none;
 }

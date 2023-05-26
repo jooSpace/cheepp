@@ -16,17 +16,25 @@ const AiBoardBox = () => {
     }, [dispatch])
 
     return (
-        <div>
+        <table>
+            <thead>
+                <tr>
+                    <th colSpan="2">The table header</th>
+                </tr>
+            </thead>
+            <tbody>
             {
                 boardPost.map((board,i) => {
-                    return (
-                        <div key={i}>
-                            {board.title}
-                        </div>
+                    return (               
+                        <tr key={i}>
+                            <td>{board.title}</td>
+                            {/* <td>with two columns</td> */}
+                        </tr>                           
                     )
                 })
             }
-        </div>
+            </tbody>
+        </table>
     );
 }
 
