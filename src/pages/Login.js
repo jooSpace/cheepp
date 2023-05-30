@@ -52,6 +52,9 @@ const Login = () => {
                         name='password' 
                         placeholder='비밀번호를 입력하세요.'>
                     </input>
+                    <div className={styles.inputPasswordEyes}>
+                        
+                    </div>
                 </div>
                 
                 <div className={styles.checkBox}>

@@ -69,8 +69,13 @@ option {
 }
 
 .inputPassword {
-    width: 100%;
+    width: 90%;
+}
+
+.inputPasswordEyes {
+    width: 10%;
     background:url('../assets/img/eyesClos.png') no-repeat right 0px center;
+    cursor: pointer;
 }
 
 .mailStyle {
@@ -107,6 +112,10 @@ option {
     cursor: pointer;
 }
 
+.loginBtn:hover {
+    background: #ffc700;
+}
+
 .signUpBtn {
     margin-top: 16px;
     background: #FFFFFF;
@@ -117,6 +126,10 @@ option {
     color: #333333;
     font-weight: bold;
     cursor: pointer;
+}
+
+.signUpBtn:hover {
+    background: #ebebeb;
 }
 
 .forgotFontStyle {
