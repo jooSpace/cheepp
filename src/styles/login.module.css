@@ -8,13 +8,13 @@ select {
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
-    background:url('../assets/img/arrow.png') no-repeat right 0px center;
+    background:url('../assets/img/arrow.png') no-repeat right 10px center;
     margin-left: 12px;
     margin-bottom: 3px;
 }
 
 option {
-    padding:5px 0;
+    padding: 50px 0;
 }
 
 .wrapper {
@@ -50,6 +50,16 @@ option {
     padding: 15px;
 }
 
+.inputBoxActive {
+    margin-top: 8px;
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #FFD91D;
+    border-radius: 8px;
+    height: 19px;
+    padding: 15px;
+}
+
 .inputBox:focus-visible {
     border:1px solid yellow;
 }
@@ -60,6 +70,7 @@ option {
 
 .inputPassword {
     width: 100%;
+    background:url('../assets/img/eyesClos.png') no-repeat right 0px center;
 }
 
 .mailStyle {
