@@ -119,8 +119,9 @@ const SignUp = () => {
                     <input
                         className={styles.inputCheckBox} 
                         type='checkbox'
+                        id='inputCheckBox'
                     />
-                    <p>입력해주신 이메일 주소로 마케팅이나 정보를 전달 받아보시겠어요?</p>
+                    <label htmlFor="inputCheckBox">입력해주신 이메일 주소로 마케팅이나 정보를 전달 받아보시겠어요?</label>
                 </div>
                 
                 <button className={styles.signUpBtn} type='button'>회원가입 완료</button>

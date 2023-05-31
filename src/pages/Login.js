@@ -59,8 +59,8 @@ const Login = () => {
                 </div>
                 
                 <div className={styles.checkBox}>
-                    <input className={styles.inputCheckBox} type="checkbox"/>
-                    <p className={styles.fontStyle}>아이디/비밀번호 기억하기</p>
+                    <input className={styles.inputCheckBox} type="checkbox" id="inputCheckBox"/>
+                    <label className={styles.fontStyle} htmlFor='inputCheckBox'>아이디/비밀번호 기억하기</label>
                 </div>
 
                 <button className={styles.loginBtn} type='button'>로그인</button>

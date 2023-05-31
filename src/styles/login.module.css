@@ -90,9 +90,24 @@ option {
 }
 
 .inputCheckBox {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
     width: 24px;
     height: 24px;
-    cursor: pointer;
+    border: 1px solid #888888;
+    border-radius: 4px;
+}
+
+.inputCheckBox:checked {
+    background: url("../assets/img/inputArrow.svg") no-repeat 50%;
+    background-color: #FFD91D;
+    border: 1px solid #333333;
+}
+
+.inputCheckBox[type="checkbox"]:checked + label::before {
+    content: "";
+    background-color: #FFD91D;
 }
 
 .fontStyle {
