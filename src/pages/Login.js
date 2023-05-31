@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import styles from '../styles/login.module.css'
+import { Link } from 'react-router-dom'
 
 const Login = () => {
 
@@ -63,8 +64,11 @@ const Login = () => {
                 </div>
 
                 <button className={styles.loginBtn} type='button'>로그인</button>
-                <button className={styles.signUpBtn} type='button'>회원가입</button>
-
+                <Link to="SignUp">
+                    <button className={styles.signUpBtn} type='button'>
+                        회원가입
+                    </button>
+                </Link>
                 <p className={styles.forgotFontStyle}>아이디/비밀번호 기억이 나지 않아요.</p>
             </form>
         </div>
