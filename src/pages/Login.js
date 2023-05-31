@@ -10,7 +10,7 @@ const Login = () => {
         setIsIdActive(true);
     }
 
-    const hadnleInputIdBlur = () => {
+    const handleInputIdBlur = () => {
         setIsIdActive(false);
     }
 
@@ -18,7 +18,7 @@ const Login = () => {
         setIsPasswordIdActive(true);
     }
 
-    const hadnleInputPasswordBlur = () => {
+    const handleInputPasswordBlur = () => {
         setIsPasswordIdActive(false);
     }
 
@@ -29,7 +29,7 @@ const Login = () => {
                 <div className={isIdActive ? styles.inputBoxActive : styles.inputBox}>
                     <input 
                         className={styles.inputId}
-                        onBlur={hadnleInputIdBlur} 
+                        onBlur={handleInputIdBlur} 
                         onFocus={handleInputIdFocus} 
                         type='text' 
                         name='id' 
@@ -38,7 +38,7 @@ const Login = () => {
                     <p className={styles.mailStyle}>@</p>
                     <select 
                         onFocus={handleInputIdFocus} 
-                        onBlur={hadnleInputIdBlur}
+                        onBlur={handleInputIdBlur}
                     >
                         <option value="naver.com">naver.com</option>
                         <option value="gmail.com">gmail.com</option>
@@ -47,7 +47,7 @@ const Login = () => {
                 <div className={isPasswordActive ? styles.inputBoxActive : styles.inputBox}>
                     <input 
                         className={styles.inputPassword} 
-                        onBlur={hadnleInputPasswordBlur} 
+                        onBlur={handleInputPasswordBlur} 
                         onFocus={handleInputPasswordFocus} 
                         type='password' 
                         name='password' 

@@ -1,0 +1,121 @@
+input, select, button, input:focus-visible {
+    border: none;
+    outline: none;
+}
+
+select {
+    width: 40%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background:url('../assets/img/arrow.png') no-repeat right 10px center;
+    margin-left: 12px;
+    margin-bottom: 3px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    min-height: 450px;
+}
+
+.container {
+    font-size: 2rem;
+    border-radius: 1rem;
+    margin-top: 87px;
+    min-width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 24px;
+    color: #333333;
+}
+
+.labelStyle {
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.noticeStyle {
+    font-size: 14px;
+    color: #888888;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    line-height: 1.5;
+}
+
+.inputBox {
+    margin-top: 8px;
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    height: 19px;
+    padding: 15px;
+}
+
+.inputBoxActive {
+    margin-top: 8px;
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #FFD91D;
+    border-radius: 8px;
+    height: 19px;
+    padding: 15px;
+}
+
+.mailStyle {
+    font-size: 16px;
+    color: #555555;
+}
+
+.inputId {
+    width: 60%;
+}
+
+.inputPassword, 
+.inputRePassword,
+.inputName,
+.inputNumber {
+    width: 90%;
+}
+
+.checkBox {
+    display: flex;
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+
+.checkBox p {
+    margin-left: 8px;
+    margin-top: 8px;
+    color: #888888;
+    font-size: 15px;
+}
+
+.inputCheckBox {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.signUpBtn {
+    width: 450px;
+    margin-top: 16px;
+    background: #DDDDDD;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    height: 50px;
+    font-size: 18px;
+    color: #888888;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
